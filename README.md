@@ -61,7 +61,7 @@ compliance agent:
 formatting llm:
 - role: clean up messy LLM output
 - function: proper spacing and structure
-- output: Readable final reports
+- output: readable final reports
 ___
 
 ## Example Output
