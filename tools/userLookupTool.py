@@ -102,7 +102,7 @@ class UserLookupTool(Component):
                     "total_records": len(data_records) if data_records else 0
                 }
                 
-                self.status = f"❌ User {username} not found"
+                self.status = f"User {username} not found"
                 return Data(value=result)
             
             # User found - extract and return their data
