@@ -126,7 +126,7 @@ class UserLookupTool(Component):
             
             # Set status message
             risk_level = "HIGH RISK" if risk_reasoning and risk_reasoning != 'nan' else "Standard"
-            self.status = f"✅ Found {username} - {risk_level}"
+            self.status = f"Found {username} - {risk_level}"
             
             return Data(value=result)
             
@@ -136,5 +136,5 @@ class UserLookupTool(Component):
                 "error": f"Lookup failed: {str(e)}",
                 "debug": f"Exception occurred: {e}"
             }
-            self.status = f"❌ Error: {str(e)}"
+            self.status = f"Error: {str(e)}"
             return Data(value=error_result)

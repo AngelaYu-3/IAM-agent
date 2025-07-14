@@ -167,9 +167,9 @@ class RiskPatternTool(Component):
             risk_patterns["overall_risk_level"] = risk_level
             risk_patterns["risk_categories"] = list(set(risk_patterns["risk_categories"]))
             
-            self.status = f"✅ Analyzed {username} - {risk_level} risk ({len(risk_patterns['risk_factors'])} patterns)"
+            self.status = f"Analyzed {username} - {risk_level} risk ({len(risk_patterns['risk_factors'])} patterns)"
             return Data(value=risk_patterns)
             
         except Exception as e:
-            self.status = f"❌ Risk analysis failed: {str(e)}"
+            self.status = f"Risk analysis failed: {str(e)}"
             return Data(value={"error": f"Risk pattern analysis failed: {str(e)}"})

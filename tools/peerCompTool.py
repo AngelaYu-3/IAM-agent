@@ -121,9 +121,9 @@ class PeerComparisonTool(Component):
                     })
                 comparison_result["peer_examples"] = peer_examples
             
-            self.status = f"✅ Compared {username} with {len(exact_peers)} exact peers"
+            self.status = f"Compared {username} with {len(exact_peers)} exact peers"
             return Data(value=comparison_result)
             
         except Exception as e:
-            self.status = f"❌ Comparison failed: {str(e)}"
+            self.status = f"Comparison failed: {str(e)}"
             return Data(value={"error": f"Peer comparison failed: {str(e)}"})
