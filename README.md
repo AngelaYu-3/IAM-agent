@@ -1,5 +1,11 @@
 # IAM-agent
-Langflow implementation of an IAM agentic workflow that takes an inputted log of user roles & access permissions then analyzes if there are permission anomalies.
+Langflow implementation of an IAM agentic MVP workflow that takes an inputted log of user roles & access permissions then analyzes if there are permission anomalies.
+
+### Key Features
+- **Intelligent Tool Selection**: Adapts analysis depth based on context and urgency
+- **Multi-Agent Architecture**: Specialized security and compliance agents
+- **Memory Capabilities**: References previous analyses and organizational patterns
+- **Regulatory Compliance**: Built-in SOX, RBAC, and data protection policy knowledge
 
 ### Table of Contents
 * [Workflow Image](#workflow-image)
