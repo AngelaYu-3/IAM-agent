@@ -1,0 +1,26 @@
+username,department,role,permissions,employment_status,hire_date,risk_reasoning
+user001,Engineering,Senior Developer,"read_code,write_code,deploy_staging,review_code",Active,2022-03-15,
+user002,Engineering,Junior Developer,"read_code,write_code",Active,2023-11-20,
+user003,Engineering,Tech Lead,"read_code,write_code,deploy_staging,deploy_prod,admin_engineering,review_code",Active,2021-01-10,
+user004,Finance,Financial Analyst,"read_finance,write_reports,read_budgets",Active,2022-08-05,
+user005,Finance,Finance Manager,"read_finance,write_reports,read_budgets,admin_finance,approve_budgets",Active,2020-06-12,
+user006,HR,HR Coordinator,"read_hr,write_employee_records",Active,2023-02-28,
+user007,HR,HR Manager,"read_hr,write_employee_records,admin_hr,read_payroll,modify_benefits",Active,2021-09-15,
+user008,Sales,Sales Rep,"read_customer_data,write_leads,access_crm",Active,2023-05-10,
+user009,Sales,Sales Manager,"read_customer_data,write_leads,access_crm,admin_sales,approve_discounts",Active,2022-01-20,
+user010,IT,System Administrator,"admin_all_systems,read_logs,modify_security,backup_systems,user_management",Active,2021-11-30,
+user011,Marketing,Marketing Coordinator,"read_marketing_data,write_campaigns,social_media_access",Active,2023-09-14,
+user012,Marketing,Marketing Manager,"read_marketing_data,write_campaigns,social_media_access,admin_marketing,budget_approval",Active,2022-04-18,
+user013,IT,IT Director,"admin_all_systems,root_access,security_override,user_management,system_emergency,audit_all",Active,2020-01-15,
+user014,Sales,Sales Rep,"admin_finance,admin_hr,delete_user_accounts,system_root,read_all_departments",Active,2023-12-01,"admin_finance, admin_hr, delete_user_accounts, system_root, read_all_departments"
+user015,Finance,Financial Analyst,"read_finance,write_reports,admin_engineering,deploy_prod,admin_hr",Terminated,2019-05-20,"admin_engineering, deploy_prod, admin_hr"
+user016,Engineering,Contractor,"read_code,write_code,admin_all_systems,delete_databases",Active,2024-01-10,"admin_all_systems, delete_databases"
+user017,HR,HR Specialist,"read_hr,write_employee_records,admin_finance,read_engineering_docs,admin_sales",Active,2022-10-05,"admin_finance, admin_sales"
+user018,IT,Junior Support,"read_logs,admin_all_systems,security_override,delete_user_accounts",Active,2023-08-12,"admin_all_systems, security_override, delete_user_accounts"
+user019,Engineering,Developer,"read_code,write_code",Active,2023-06-01,
+user020,Finance,Analyst,"read_finance,write_reports",Active,2023-07-15,
+user021,Sales,Sales Rep,"read_customer_data,access_crm",Active,2023-08-01,
+user022,HR,HR Assistant,"read_hr,write_employee_records",Active,2023-09-01,
+user023,Engineering,Junior Developer,"read_code,write_code,admin_engineering,deploy_prod,admin_finance,delete_systems",Active,2023-10-15,"admin_engineering, deploy_prod, admin_finance, delete_systems"
+user024,Engineering,Engineering Manager,"read_code,write_code,deploy_staging,deploy_prod,admin_engineering,review_code,approve_architecture",Active,2021-05-20,
+user025,Finance,External Consultant,"read_finance,write_reports,admin_finance,read_hr,admin_all_systems",Active,2024-02-01,"admin_finance, admin_all_systems"
