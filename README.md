@@ -62,10 +62,12 @@ formatting llm:
 - role: clean up messy LLM output
 - function: proper spacing and structure
 - output: readable final reports
+
 ___
 
 ## Example Output
 <img src="/images/output1.png" alt="output1 image" width="600">
+
 ___
 
 ## Future Testing Prompts
